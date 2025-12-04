@@ -14,7 +14,7 @@ It demonstrates how procedural mesh generation, dynamic vertex manipulation, and
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 Traditional pottery requires physical materials, space, and time. This VR simulation aims to capture the **creative and meditative aspects** of pottery-making while removing those constraints.
 
@@ -30,7 +30,7 @@ The project focuses on:
 
 ---
 
-## 🧭 Core Interaction Flow
+## Core Interaction Flow
 
 The user starts with a **procedurally generated base shape**—a simple cylinder that can be configured with different layer counts and subdivision levels.
 
@@ -49,7 +49,7 @@ This dual-mode approach helps users understand when they are in "creation" versu
 
 ---
 
-## 🛠️ System Architecture
+## System Architecture
 
 ### Procedural Mesh Generation
 
@@ -106,7 +106,7 @@ This persistence layer also tracks unsaved changes, prompting users before they 
 
 ---
 
-## 🎨 Design Decisions
+## Design Decisions
 
 ### Why Procedural Generation?
 
@@ -135,7 +135,7 @@ The wet clay / baked material modes serve both **visual and functional purposes*
 
 ---
 
-## 💻 Technical Implementation
+## Technical Implementation
 
 ### Tech Stack
 
@@ -172,7 +172,7 @@ Assets/
 
 ---
 
-## 📄 Reflection
+## Reflection
 
 This project strengthened my understanding of:
 

@@ -28,7 +28,7 @@ It is based on my TEL2 HCI design slides and transforms the original static wire
 
 ---
 
-## 🌟 Overview
+## Overview
 
 The kiosk allows visitors to explore rides, eateries, and shows; open detailed information panels; apply filters; search by keyword; build a trip itinerary; and receive automated suggestions when wait times change.  
 The goal was to preserve the user flow and information hierarchy from the original design materials while implementing a smooth, responsive interaction model in the browser.
@@ -43,7 +43,7 @@ This prototype focuses on:
 
 ---
 
-## 🧭 Core Interaction Flow
+## Core Interaction Flow
 
 The user first enters the **Explore** view, where all attractions are presented as cards.  
 They can refine the content through **Filters** (wait time, rider height, attraction type) or through **Search**, which includes proper empty-state feedback for unmatched queries.
@@ -56,7 +56,7 @@ If conflicts occur, warnings appear to prompt the user to adjust.
 
 ---
 
-## 🧠 Adaptive Recommendation Logic
+## Adaptive Recommendation Logic
 
 A key interaction is the **smart recommendation** feature:  
 If the wait time for a chosen activity increases significantly, the interface suggests an alternative attraction with a shorter expected queue.  
@@ -70,7 +70,7 @@ This component demonstrates simple condition-based decision logic implemented pu
 
 ---
 
-## 🕒 “Welcome Back” & Trip Summary
+## “Welcome Back” & Trip Summary
 
 To mimic a physical kiosk used by returning visitors, the prototype includes a **Welcome Back** flow.  
 Upon return, the user is shown an updated trip summary with revised wait times and the option to modify their plan or continue exploring.
@@ -80,7 +80,7 @@ The intention was to create a believable end-to-end loop representing a real par
 
 ---
 
-## 🛠 Implementation Details
+## Implementation Details
 
 **Tech Stack**
 
@@ -101,7 +101,7 @@ The entire prototype is intentionally lightweight to ensure clarity and easy rep
 
 ---
 
-## 📄 Reflection
+## Reflection
 
 This project strengthened my ability to:
 
